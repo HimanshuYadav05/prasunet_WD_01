@@ -1,0 +1,339 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5e6e8;
+  color: #192a51;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #192a51;
+  color: #f5e6e8;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #f5e6e8;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.left-half {
+  flex: 1;
+  max-width: 45%;
+}
+
+.left-half h1 {
+  font-size: 2.5rem;
+  color: #967aa1;
+}
+
+.left-half p {
+  margin: 1.5rem 0;
+  color: #aaa1c8;
+}
+
+.left-half .cta-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #967aa1;
+  color: #f5e6e8;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.right-half {
+  flex: 1;
+  max-width: 45%;
+}
+
+.right-half img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #192a51;
+  color: #f5e6e8;
+}
+
+@media (max-width: 768px) {
+  main {
+      flex-direction: column;
+  }
+  
+  .left-half, .right-half {
+      max-width: 100%;
+  }
+}
+/* styles.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5e6e8;
+  color: #192a51;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #192a51;
+  color: #f5e6e8;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #f5e6e8;
+  font-weight: bold;
+}
+
+header .search-bar {
+  display: flex;
+  align-items: center;
+}
+
+header .search-bar input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+header .search-bar button {
+  padding: 0.5rem;
+  background-color: #967aa1;
+  border: none;
+  color: #f5e6e8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.left-half {
+  flex: 1;
+  max-width: 45%;
+}
+
+.left-half h1 {
+  font-size: 2.5rem;
+  color: #967aa1;
+}
+
+.left-half p {
+  margin: 1.5rem 0;
+  color: #aaa1c8;
+}
+
+.left-half .cta-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #967aa1;
+  color: #f5e6e8;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.right-half {
+  flex: 1;
+  max-width: 45%;
+}
+
+.right-half img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #192a51;
+  color: #f5e6e8;
+}
+
+/* Anime Section Styles */
+.anime-section {
+  padding: 2rem;
+  background-color: #d5c6e0;
+}
+
+.section-title h2 {
+  font-size: 1.8rem;
+  color: #192a51;
+  margin-bottom: 1.5rem;
+}
+
+.anime-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.anime-item {
+  flex: 1;
+  max-width: 30%;
+  background-color: #f5e6e8;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.anime-item img {
+  width: 100%;
+  height: auto;
+}
+
+.anime-info {
+  padding: 1rem;
+}
+
+.anime-info h3 {
+  font-size: 1.2rem;
+  color: #192a51;
+  margin-bottom: 0.5rem;
+}
+
+.anime-info p {
+  color: #aaa1c8;
+}
+
+@media (max-width: 768px) {
+  main {
+      flex-direction: column;
+  }
+
+  .left-half, .right-half {
+      max-width: 100%;
+  }
+
+  .anime-list {
+      flex-direction: column;
+  }
+
+  .anime-item {
+      max-width: 100%;
+  }
+}
+footer {
+  background-color: #192a51;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.subscribe {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subscribe form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe input {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #d5c6e0;
+  color: #192a51;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-links {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 24px;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+}
